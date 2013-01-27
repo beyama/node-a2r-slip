@@ -1,0 +1,29 @@
+{
+  "name": "node-a2r-slip"
+  , "description": "RFC 1055 compliant SLIP decoder and encoder stram classes"
+  , "version": "0.0.1"
+  , "keywords": ["slip", "rfc1055", "a2r"]
+  , "author": "Alexander Jentz"
+  , "maintainers": [{
+      "name": "Alexander Jentz"
+      , "email": "me@beyama.de"
+      , "web": "http://beyama.de/"
+  }]
+  , "licenses": [{
+      "type": "MIT"
+      , "url": "https://github.com/beyama/node-a2r-slip/raw/master/LICENSE"
+  }]
+  , "repositories": [{
+      "type": "git"
+      , "url": "https://github.com/beyama/node-a2r-slip"
+  }]
+  , "devDependencies": {
+    "mocha": "*"
+    , "should": "*"
+    , "coffee-script": "*"
+  }
+  , "scripts": {
+    "prepublish": "make build"
+    , "postpublish": "make clean"
+  }
+}
