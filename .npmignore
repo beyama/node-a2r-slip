@@ -1,0 +1,11 @@
+*.swp                                                                   
+*.swo
+*.md
+.git*
+Makefile
+docs/
+examples/
+test/
+lib-cov/*
+coverage.html
+node_modules
